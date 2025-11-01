@@ -186,6 +186,7 @@
   ${BRANCH_FRIENDLY_NAME} Nome amichevole del branch selezionato, contiene la parte ${REMOTE} per i branch remoti
   ${SHA} Hash del commit selezionato
   ${TAG} Tag selezionato
+  ${FILE} File selezionato, relativo alla radice del repository
   $1, $2 ... Valori dei controlli di input</x:String>
   <x:String x:Key="Text.Configure.CustomAction.Executable" xml:space="preserve">File Eseguibile:</x:String>
   <x:String x:Key="Text.Configure.CustomAction.InputControls" xml:space="preserve">Controlli di Input:</x:String>
@@ -194,6 +195,7 @@
   <x:String x:Key="Text.Configure.CustomAction.Scope" xml:space="preserve">Ambito:</x:String>
   <x:String x:Key="Text.Configure.CustomAction.Scope.Branch" xml:space="preserve">Branch</x:String>
   <x:String x:Key="Text.Configure.CustomAction.Scope.Commit" xml:space="preserve">Commit</x:String>
+  <x:String x:Key="Text.Configure.CustomAction.Scope.File" xml:space="preserve">File</x:String>
   <x:String x:Key="Text.Configure.CustomAction.Scope.Remote" xml:space="preserve">Remoto</x:String>
   <x:String x:Key="Text.Configure.CustomAction.Scope.Repository" xml:space="preserve">Repository</x:String>
   <x:String x:Key="Text.Configure.CustomAction.Scope.Tag" xml:space="preserve">Tag</x:String>
@@ -504,7 +506,6 @@
   <x:String x:Key="Text.NotConfigured" xml:space="preserve">Git NON è configurato. Prima vai su [Preferenze] per configurarlo.</x:String>
   <x:String x:Key="Text.OpenAppDataDir" xml:space="preserve">Apri Cartella Dati App</x:String>
   <x:String x:Key="Text.OpenInExternalMergeTool" xml:space="preserve">Apri nello Strumento di Merge</x:String>
-  <x:String x:Key="Text.OpenWith" xml:space="preserve">Apri con...</x:String>
   <x:String x:Key="Text.Optional" xml:space="preserve">Opzionale.</x:String>
   <x:String x:Key="Text.PageTabBar.New" xml:space="preserve">Crea Nuova Pagina</x:String>
   <x:String x:Key="Text.PageTabBar.Tab.Bookmark" xml:space="preserve">Segnalibro</x:String>

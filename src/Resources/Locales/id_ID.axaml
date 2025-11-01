@@ -196,6 +196,7 @@
   ${BRANCH_FRIENDLY_NAME} Nama ramah dari branch yang dipilih, mengandung bagian ${REMOTE} untuk remote branch
   ${SHA} Hash commit yang dipilih
   ${TAG} Tag yang dipilih
+  ${FILE} Berkas yang dipilih, relatif terhadap akar repositori
   $1, $2 ... Nilai kontrol input</x:String>
   <x:String x:Key="Text.Configure.CustomAction.Executable" xml:space="preserve">Berkas Eksekusi:</x:String>
   <x:String x:Key="Text.Configure.CustomAction.InputControls" xml:space="preserve">Kontrol Input:</x:String>
@@ -204,6 +205,7 @@
   <x:String x:Key="Text.Configure.CustomAction.Scope" xml:space="preserve">Lingkup:</x:String>
   <x:String x:Key="Text.Configure.CustomAction.Scope.Branch" xml:space="preserve">Branch</x:String>
   <x:String x:Key="Text.Configure.CustomAction.Scope.Commit" xml:space="preserve">Commit</x:String>
+  <x:String x:Key="Text.Configure.CustomAction.Scope.File" xml:space="preserve">Berkas</x:String>
   <x:String x:Key="Text.Configure.CustomAction.Scope.Remote" xml:space="preserve">Remote</x:String>
   <x:String x:Key="Text.Configure.CustomAction.Scope.Repository" xml:space="preserve">Repositori</x:String>
   <x:String x:Key="Text.Configure.CustomAction.Scope.Tag" xml:space="preserve">Tag</x:String>
@@ -518,7 +520,6 @@
   <x:String x:Key="Text.NotConfigured" xml:space="preserve">Git BELUM dikonfigurasi. Silakan ke [Preferences] dan konfigurasikan terlebih dahulu.</x:String>
   <x:String x:Key="Text.OpenAppDataDir" xml:space="preserve">Buka Direktori Penyimpanan Data</x:String>
   <x:String x:Key="Text.OpenInExternalMergeTool" xml:space="preserve">Buka di Merge Tool</x:String>
-  <x:String x:Key="Text.OpenWith" xml:space="preserve">Buka dengan...</x:String>
   <x:String x:Key="Text.Optional" xml:space="preserve">Opsional.</x:String>
   <x:String x:Key="Text.PageTabBar.New" xml:space="preserve">Buat Tab Baru</x:String>
   <x:String x:Key="Text.PageTabBar.Tab.Bookmark" xml:space="preserve">Bookmark</x:String>

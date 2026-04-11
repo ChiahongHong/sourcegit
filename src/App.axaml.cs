@@ -304,7 +304,7 @@ namespace SourceGit
         {
             if (Current?.ApplicationLifetime is IClassicDesktopStyleApplicationLifetime desktop)
             {
-                desktop.ShutdownMode = ShutdownMode.OnExplicitShutdown;
+                // desktop.ShutdownMode = ShutdownMode.OnExplicitShutdown;
                 desktop.MainWindow?.Close();
                 desktop.Shutdown(exitCode);
             }
